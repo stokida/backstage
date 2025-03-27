@@ -1,6 +1,8 @@
 app:
   title: Backstage Example App
-  baseUrl: http://localhost:3000
+  baseUrl: https://backstage-wvv5.onrender.com:3000
+  listen:
+    host: 0.0.0.0
   experimental:
     packages: all # ✨
 
@@ -41,14 +43,14 @@ backend:
     # is require for the backend-next to work in this repo
     dangerouslyDisableDefaultAuthPolicy: true
 
-  baseUrl: http://localhost:7007
+  baseUrl: https://backstage-wvv5.onrender.com:8080
   listen:
-    port: 7007
+    port: 8080
   database:
     client: better-sqlite3
     connection: ':memory:'
   cors:
-    origin: http://localhost:3000
+    origin: https://backstage-wvv5.onrender.com:3000
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   csp:
