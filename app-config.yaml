@@ -43,7 +43,7 @@ backend:
 
   baseUrl: http://localhost:7007
   listen:
-    port: 3000
+    port: 7007
   database:
     client: better-sqlite3
     connection: ':memory:'
