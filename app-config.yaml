@@ -1,6 +1,6 @@
 app:
   title: Backstage Example App
-  baseUrl: https://backstage-wvv5.onrender.com:3000
+  baseUrl: http://backstage-wvv5.onrender.com:3000
   listen:
     host: 0.0.0.0
   experimental:
